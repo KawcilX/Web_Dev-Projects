@@ -1,0 +1,206 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.heading{
+    background-image: url("https://th.bing.com/th/id/OIP.hfYeIbz7JfL-dqiMvYrICwHaEK?pid=ImgDet&rs=1");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color{
+    background-color: rgba(128, 128, 128, 0.534);
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.heading h3{
+    color: white;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    transition: font-size 1s;
+}
+
+.heading h3:hover{
+    color: orange;
+    font-size: 120px;
+}
+
+.solution-cards{
+    height: 70vh;
+    width: 100%;
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+    padding: 0;
+}
+
+.solution-card{
+    height: 80%;
+    width: 26%;
+    background-color: white;
+    margin: 0px 40px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px rgba(128, 128, 128, 0.5);
+    text-align: center;
+}
+
+.solution-card img{
+    height: 60%;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.solution-card:hover{
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.852);;
+}
+
+.part-two{
+    width: 80%;
+    margin: 50px auto;
+    /* background-color: red; */
+    padding: 0;
+    text-align: center;
+}
+
+.part-two h1{
+    font-size: 50px;
+    margin: 0;
+}
+
+.form-container{
+    height: 66vh;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.301);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.girl{
+    height: 100%;
+    width: 550px;
+    margin-left: auto;
+}
+
+.form{
+    height: 450px;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.852);
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form form{
+    height: 60%;
+    width: fit-content;
+    /* background-color: red; */
+    
+}
+
+.form form label{
+    display: inline-block;
+    width: 140px;
+    font-weight: 450;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.form form input{
+    height: 30px;
+    width: 450px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.852);
+}
+
+.form form input:hover{
+    border: 1px solid orange;
+}
+
+.form p{
+    font-size: 20px;
+}
+
+.form p a{
+    text-decoration: none;
+    color: gray;
+}
+
+.form p:hover a{
+    color: orange;
+    text-shadow: 0.4px 0.4px 0.4px orange;
+}
+
+#btn{
+    font-size: large;
+    background-color: orange;
+    color: white;
+    border: 0;
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    box-shadow: 4px 4px 6px rgb(255, 165, 0);
+}
+
+/* FOOTER DECORATION SECTION */
+footer{
+    padding: 60px 100px;
+    height: 30vh;
+    background-color: black;
+    margin-top: 13vh;
+    color: white;
+}
+
+.contact-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.contact-list ul{
+    list-style: none;
+}
+
+.contact-list ul li{
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.contact-list ul li:hover{
+    text-decoration: underline;
+}
+
+.extra{
+    margin-top: 5vh;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
